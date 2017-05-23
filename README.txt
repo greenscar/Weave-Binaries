@@ -5,3 +5,7 @@ Download the latest build here: https://github.com/IVPR/Weave-Binaries/zipball/m
 If you want the source files instead, go here: http://www.github.com/IVPR/Weave
 
 Installation instructions are available here: http://info.oicweave.org/projects/weave/wiki/Deployment_Guide
+
+
+docker build -t weave . 
+docker run -d -p 8888:8080 --name weave weave
